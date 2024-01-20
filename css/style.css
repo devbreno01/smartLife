@@ -1,0 +1,275 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border:none;
+}
+/*PAGINA 1*/
+#container1{
+    
+    height: 800px;
+   /*background-color: #141414;*/
+   background-image: url(../img/bck2-pg1.jpg);
+  
+    background-repeat: no-repeat;
+    margin: 0;
+    margin-right: 0;
+   /* border: 2px solid green;*/
+}
+
+.filho-container{
+    display: flex;
+    /*border: 2px solid white;*/
+    justify-content: center;
+    margin-top: 10px;
+}
+.filho2{
+    margin-top: 250px ;
+    /*border: 2px solid white;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#smartlife{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+   
+   
+}
+#titulo1{
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    color: white;
+}
+#btn{
+    height: 40px;
+    
+}
+#entrarContato{
+    color: white;
+    text-decoration: none;
+}
+
+/*pagina 2 */
+
+#container2{
+    /*border: 2px solid brown;*/
+    display: flex;
+    background-color: #141414;
+}
+.img-container2{
+    width: 400px;
+    height: 460px;
+   
+   
+}
+.img-container2:hover{
+    border: 2px solid #1500ff;
+}
+.apresentacao{
+    width: 40%;
+    height: 50%;
+    /*border: 2px solid #ffffff;*/
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-left: 50px;
+    padding-left: 3px;
+}
+#titulo-apresentacao{
+    font-family: 'Anton', sans-serif;
+    color: #000AFF;
+    font-size: 60px;
+}
+#descricao{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 23px;
+    color: #ffffff;
+}
+#images{
+   /* border: 2px solid #ffffff;*/
+    margin-left: 60px;
+    margin-top: 50px;
+}
+#img-w{
+    margin-left: 160px;
+    margin-top: 15px;
+    background-image: url(../img/img2-pg2.png);
+    background-size: cover;
+}
+#img-m{
+    background-image: url(../img/img1-pg2.png);
+    background-size: cover;
+}
+
+#titulo2-ap{
+    margin-top: 250px;
+    padding-left: 100px;
+    font-family: 'Anton', sans-serif;
+    color: #000AFF;
+    font-size: 60px;
+}
+
+/*pagina 3*/
+#container3{
+    background-color: #141414;
+}
+#content-c3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#titulo-c3{
+    margin-top: 40px;
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    color:#000AFF;
+}
+#descricao-c3{
+    margin-top: 5px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#img-c3{
+    display: flex;
+    /*border: 2px solid white;*/
+}
+
+#img1-c3{
+    height: 385px;
+    width:350px;
+    margin-left: 25px;
+    background-image: url(../img/img1-pg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#img2-c3{
+   height: 385px;
+    width:350px;
+    background-image: url(../img/img2-pg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    text-align: center;
+}
+#img3-c3{
+    height: 385px;
+    width:350px;
+    background-image: url(../img/img3-pg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    text-align: center;
+}
+
+#lbl-c3{
+    font-family: 'Anton', sans-serif;
+    color:white;
+    font-size: 30px;
+    margin-top: 150px;
+}
+
+.hover-img:hover{
+    border: 2px solid #1500ff;
+}
+
+/*ultima pagina*/
+#container4{
+    background-color: #141414;
+}
+#content-c4{
+    /*border: 2px solid white;*/
+    margin-right: 700px;
+    margin-left: 200px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+#titulo-c4{
+    color:#000AFF;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+}
+
+
+footer{
+    margin:0;
+    padding:0;
+    background-color: #5271FF;
+    /*border: 2px solid white;*/
+     
+}
+
+#info-c4{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-around;
+}
+.info{
+    /*border: 2px solid white;*/
+    margin-right: 20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    text-align: center;
+}
+#tt-c4{
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+#p-c4{
+    font-family: 'Hanken Grotesk', sans-serif;
+   
+}
+
+
+@media screen and  (max-width: 480px){
+    #container1{
+      /*border: #ff0000 solid 2px;*/
+      width: 900px;
+      background-size: cover;
+    }
+    #container2{
+        width: 900px;
+    }
+
+    .img-container2{
+        width: 300px;
+        height:360px;
+    }
+    #titulo2-ap{
+        padding-left: 15px;
+        margin-top: 50px;
+    }
+   
+    #img-w{
+        margin-left: 0;
+    }
+    #container3{
+        width: 900px;
+    }
+    #img1-c3,#img2-c3,#img3-c3{
+        height: 285px;
+        width:250px;
+    }
+    #img3-c3{
+        margin-left: 25px;
+    }
+    #container4{
+        width: 900px;
+    }
+    #content-c4{
+        margin-right: 200px;
+       
+    }
+     #container5{
+        width: 900px;
+     }
+   
+}
